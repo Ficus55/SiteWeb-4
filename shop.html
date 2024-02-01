@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="libs/glidejs/glide.core.min.css">
+    <link rel="stylesheet" href="libs/glidejs/glide.theme.min.css">
+    <link rel="shortcut icon" href="img/favicon-28_61293ab7-d6dd-4270-b374-10f68f81190b_32x32.png">
+    <title>SiteWeb-4</title>
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <header id="site-header">
+            <div class="container">
+                <div class="header-body">
+                    <div class="header__brand">
+                        <div class="header__burger">
+                            <span></span>
+                        </div>
+                        <a href="index.html" class="header__logo">
+                            <div class="main__logo">
+                                Ivi City
+                            </div>
+                            <div class="inner_logo">
+                                co.
+                            </div>
+                        </a>
+                        <div class="header__search"></div>
+                    </div>
+                    <div class="header__menu">
+                        <nav class="menu__nav">
+                            <ul class="menu__list">
+                                <li class="close__menu__body">
+                                    <div class="close__menu__button">
+                                        <span></span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a href="index.html" class="menu__link">Home</a>
+                                </li>
+                                <li>
+                                    <a href="shop.html" class="menu__link">Shop</a>
+                                </li>
+                                <li>
+                                    <a href="about-us.html" class="menu__link">About us</a>
+                                </li>
+                                <li>
+                                    <a href="blog.html" class="menu__link">Blog</a>
+                                </li>
+                                <li>
+                                    <a href="showrooms.html" class="menu__link">Showroom</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <div class="container">
+                <section class="section-shop">
+                    <h1 class="shop-title">
+                        Adult Shop All
+                    </h1>
+                    <div class="shop-collection-description">
+                        we make dresses so you can make memories
+                    </div>
+                    <div class="shop-collection-form-wrap">
+                        <form action="#" class="shop-collection-form" name="shopSearch">
+                            <input type="text" class="shop-collection-input" name="shopSearchInput"
+                                placeholder="Search for products in this collection">
+                            <button type="button" class="shop-collection-clear" title="SearchClearButton"
+                                name="shopSearchClear">
+                                <svg aria-hidden="true" width="15" height="16" viewBox="0 0 20 20">
+                                    <path
+                                        d="M11.414 10l6.293-6.293a1 1 0 10-1.414-1.414L10 8.586 3.707 2.293a1 1 0 00-1.414 1.414L8.586 10l-6.293 6.293a1 1 0 101.414 1.414L10 11.414l6.293 6.293A.998.998 0 0018 17a.999.999 0 00-.293-.707L11.414 10z"
+                                        fill="#222222"></path>
+                                </svg>
+                            </button>
+                            <button type="submit" class="shop-collection-submit" title="SearchSubmitButton"
+                                name="shopSearchSubmit">
+                                <svg aria-hidden="true" width="15" height="16" viewBox="0 0 15 16" fill="none">
+                                    <path
+                                        d="M14.4323 14.4001L10.4594 10.4801C12.1215 8.32012 11.9188 5.20012 9.93233 3.24012C7.74314 1.08012 4.17558 1.08012 1.94585 3.24012C-0.243342 5.40012 -0.243342 8.92012 1.94585 11.1201C2.9999 12.1601 4.41882 12.7601 5.91882 12.7601C7.13504 12.7601 8.31071 12.3601 9.28368 11.6401L13.2567 15.5601C13.4188 15.7201 13.6215 15.8001 13.8242 15.8001C14.0269 15.8001 14.2296 15.7201 14.3918 15.5601C14.7567 15.2001 14.7567 14.7201 14.4323 14.4001ZM5.95936 11.1201C4.90531 11.1201 3.89179 10.7201 3.12152 9.96012C1.54044 8.40012 1.54044 5.92012 3.12152 4.36012C3.89179 3.60012 4.94585 3.20012 5.95936 3.20012C6.97287 3.20012 8.02693 3.60012 8.7972 4.36012C10.3783 5.92012 10.3783 8.40012 8.7972 9.96012C8.02693 10.7201 7.01341 11.1201 5.95936 11.1201Z"
+                                        fill="#222222"></path>
+                                </svg>
+                            </button>
+                        </form>
+                    </div>
+                    <div class="shop-filter-tree-mobile">
+                        <div class="shop-filter-button">
+                            <button class="shop-mobile-filter-button" type="button">
+                                <i class="fa-solid fa-sliders"></i>
+                                <span>Filter</span>
+                            </button>
+                        </div>
+                        <div class="shop-filter-count">
+                            12 products
+                        </div>
+                        <div class="shop-filter-sort">
+                            <label for="shop-filter-sort-select"></label>
+                            <select class="shop-filter-sort-select">
+                                <option value disabled selected>Sort By</option>
+                                <option value="relevance">Featured</option>
+                                <option value="best-selling">Best selling</option>
+                                <option value="title-ascending">Alphabetically, A-Z</option>
+                                <option value="title-descending">Alphabetically, Z-A</option>
+                                <option value="price-ascending">Price, low to high</option>
+                                <option value="price-descending">Price, high to low</option>
+                                <option value="created-ascending">Date, old to new</option>
+                                <option value="created-descending">Date, new to old</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="shop-grid-products">
+                        <div class="shop-grid-product">
+                            <a href="#" class="shop-grid-product-link">
+                                <div class="shop-grid-product-image-wrap">
+                                    <img src="img/Esmee-09_600x.jpg" alt="" class="shop-grid-product-first-img">
+                                    <img src="img/Esmee-Studio-02_600x.jpg" alt="" class="shop-grid-product-second-img">
+                                </div>
+                                <div class="shop-grid-product-meta">
+                                    <div class="shop-grid-product-title">
+                                        Esmee Dress in Floral
+                                    </div>
+                                    <div class="shop-grid-product-price">
+                                        $ 138.00
+                                    </div>
+                                    <div class="shop-swatch-navigable-wrapper"></div>
+                                    <div class="shop-grid-product-quick-view">
+                                        <span class="shop-grid-product-quick-view-label">Quick view</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <button class="shop-add-to-wishlist"></button>
+                        </div>
+                        <div class="shop-grid-product">
+                            <a href="#" class="shop-grid-product-link">
+                                <div class="shop-grid-product-image-wrap">
+                                    <img src="img/life-2_600x.jpg" alt="" class="shop-grid-product-first-img">
+                                    <img src="img/Middleton-Studio-02_600x.jpg" alt=""
+                                        class="shop-grid-product-second-img">
+                                </div>
+                                <div class="shop-grid-product-meta">
+                                    <div class="shop-grid-product-title">
+                                        Middleton Dress
+                                    </div>
+                                    <div class="shop-grid-product-price">
+                                        $ 158.00
+                                    </div>
+                                    <div class="shop-swatch-navigable-wrapper"></div>
+                                    <div class="shop-grid-product-quick-view">
+                                        <span class="shop-grid-product-quick-view-label">Quick view</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <button class="shop-add-to-wishlist"></button>
+                        </div>
+                        <div class="shop-grid-product">
+                            <a href="#" class="shop-grid-product-link">
+                                <div class="shop-grid-product-image-wrap">
+                                    <img src="img/isabella-2_600x.jpg" alt="" class="shop-grid-product-first-img">
+                                    <img src="img/isabella-3_600x.jpg" alt="" class="shop-grid-product-second-img">
+                                </div>
+                                <div class="shop-grid-product-meta">
+                                    <div class="shop-grid-product-title">
+                                        Isabella Dress
+                                    </div>
+                                    <div class="shop-grid-product-price">
+                                        $ 198.00
+                                    </div>
+                                    <div class="shop-swatch-navigable-wrapper"></div>
+                                    <div class="shop-grid-product-quick-view">
+                                        <span class="shop-grid-product-quick-view-label">Quick view</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <button class="shop-add-to-wishlist"></button>
+                        </div>
+                        <div class="shop-grid-product">
+                            <a href="#" class="shop-grid-product-link">
+                                <div class="shop-grid-product-image-wrap">
+                                    <img src="img/brooke-ivory-1_600x.jpg" alt="" class="shop-grid-product-first-img">
+                                    <img src="img/brooke-ivory-3_600x.jpg" alt="" class="shop-grid-product-second-img">
+                                </div>
+                                <div class="shop-grid-product-meta">
+                                    <div class="shop-grid-product-title">
+                                        Brooke Dress in Ivory
+                                    </div>
+                                    <div class="shop-grid-product-price">
+                                        $ 138.00
+                                    </div>
+                                    <div class="shop-swatch-navigable-wrapper">
+                                        <div class="shop-swatch-group-selector">
+                                            <img src="img/brooke-dress.media" alt="">
+                                        </div>
+                                        <div class="shop-swatch-group-selector swatch-group-selector-active">
+                                            <img src="img/eloise-dress-in-pink-tweed.media" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="shop-grid-product-quick-view">
+                                        <span class="shop-grid-product-quick-view-label">Quick view</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <button class="shop-add-to-wishlist"></button>
+                        </div>
+                        <div class="shop-grid-product">
+                            <a href="#" class="shop-grid-product-link">
+                                <div class="shop-grid-product-image-wrap">
+                                    <img src="img/lovers2-11_600x.jpg" alt="" class="shop-grid-product-first-img">
+                                    <img src="img/soalana-4_600x.jpg" alt="" class="shop-grid-product-second-img">
+                                </div>
+                                <div class="shop-grid-product-meta">
+                                    <div class="shop-grid-product-title">
+                                        Solana Dress
+                                    </div>
+                                    <div class="shop-grid-product-price">
+                                        $ 188.00
+                                    </div>
+                                    <div class="shop-swatch-navigable-wrapper"></div>
+                                    <div class="shop-grid-product-quick-view">
+                                        <span class="shop-grid-product-quick-view-label">Quick view</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <button class="shop-add-to-wishlist"></button>
+                        </div>
+                        <div class="shop-grid-product">
+                            <a href="#" class="shop-grid-product-link">
+                                <div class="shop-grid-product-image-wrap">
+                                    <img src="img/SolanaBlouse-6_600x.jpg" alt="" class="shop-grid-product-first-img">
+                                    <img src="img/SolanaBlouse-3_600x.jpg" alt="" class="shop-grid-product-second-img">
+                                </div>
+                                <div class="shop-grid-product-meta">
+                                    <div class="shop-grid-product-title">
+                                        Solana Blouse
+                                    </div>
+                                    <div class="shop-grid-product-price">
+                                        $ 88.00
+                                    </div>
+                                    <div class="shop-swatch-navigable-wrapper"></div>
+                                    <div class="shop-grid-product-quick-view">
+                                        <span class="shop-grid-product-quick-view-label">Quick view</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <button class="shop-add-to-wishlist"></button>
+                        </div>
+                        <div class="shop-grid-product">
+                            <a href="#" class="shop-grid-product-link">
+                                <div class="shop-grid-product-image-wrap">
+                                    <img src="img/Eleanor-Studio-14_600x.jpg" alt=""
+                                        class="shop-grid-product-first-img">
+                                    <img src="img/lovers2-19_600x.jpg" alt="" class="shop-grid-product-second-img">
+                                </div>
+                                <div class="shop-grid-product-meta">
+                                    <div class="shop-grid-product-title">
+                                        Eleanor Dress in Pink Floral
+                                    </div>
+                                    <div class="shop-grid-product-price">
+                                        $ 128.00
+                                    </div>
+                                    <div class="shop-swatch-navigable-wrapper">
+                                        <div class="shop-swatch-group-selector swatch-group-selector-active">
+                                            <img src="img/eleanor-dress-in-pink-floral.media" alt="">
+                                        </div>
+                                        <div class="shop-swatch-group-selector">
+                                            <img src="img/eleanor-dress-in-purple-1.media" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="shop-grid-product-quick-view">
+                                        <span class="shop-grid-product-quick-view-label">Quick view</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <button class="shop-add-to-wishlist"></button>
+                        </div>
+                        <div class="shop-grid-product">
+                            <a href="#" class="shop-grid-product-link">
+                                <div class="shop-grid-product-image-wrap">
+                                    <img src="img/EloiseTweedPink-4copy2_600x.jpg" alt=""
+                                        class="shop-grid-product-first-img">
+                                    <img src="img/EloiseTweedPink-6copy2_600x.jpg" alt=""
+                                        class="shop-grid-product-second-img">
+                                </div>
+                                <div class="shop-grid-product-meta">
+                                    <div class="shop-grid-product-title">
+                                        Eloise Dress in Pink Tweed
+                                    </div>
+                                    <div class="shop-grid-product-price">
+                                        $ 148.00
+                                    </div>
+                                    <div class="shop-swatch-navigable-wrapper">
+                                        <div class="shop-swatch-group-selector">
+                                            <img src="img/brooke-dress.media" alt="">
+                                        </div>
+                                        <div class="shop-swatch-group-selector swatch-group-selector-active">
+                                            <img src="img/eloise-dress-in-pink-tweed.media" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="shop-grid-product-quick-view">
+                                        <span class="shop-grid-product-quick-view-label">Quick view</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <button class="shop-add-to-wishlist"></button>
+                        </div>
+                        <div class="shop-grid-product">
+                            <a href="#" class="shop-grid-product-link">
+                                <div class="shop-grid-product-image-wrap">
+                                    <img src="img/KatePink-05_600x.jpg" alt="" class="shop-grid-product-first-img">
+                                    <img src="img/KatePink-08_600x.jpg" alt="" class="shop-grid-product-second-img">
+                                </div>
+                                <div class="shop-grid-product-meta">
+                                    <div class="shop-grid-product-title">
+                                        Kate Dress in Pink
+                                    </div>
+                                    <div class="shop-grid-product-price">
+                                        $ 138.00
+                                    </div>
+                                    <div class="shop-swatch-navigable-wrapper"></div>
+                                    <div class="shop-grid-product-quick-view">
+                                        <span class="shop-grid-product-quick-view-label">Quick view</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <button class="shop-add-to-wishlist"></button>
+                        </div>
+                        <div class="shop-grid-product">
+                            <a href="#" class="shop-grid-product-link">
+                                <div class="shop-grid-product-image-wrap">
+                                    <img src="img/68CDD58E-AED4-40F4-BC30-A759C8EAFEE7_600x.jpg" alt=""
+                                        class="shop-grid-product-first-img">
+                                    <img src="img/roselyn-5_600x.jpg" alt="" class="shop-grid-product-second-img">
+                                </div>
+                                <div class="shop-grid-product-meta">
+                                    <div class="shop-grid-product-title">
+                                        Roselyn Dress in Pink
+                                    </div>
+                                    <div class="shop-grid-product-price">
+                                        $ 138.00
+                                    </div>
+                                    <div class="shop-swatch-navigable-wrapper"></div>
+                                    <div class="shop-grid-product-quick-view">
+                                        <span class="shop-grid-product-quick-view-label">Quick view</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <button class="shop-add-to-wishlist"></button>
+                        </div>
+                        <div class="shop-grid-product">
+                            <a href="#" class="shop-grid-product-link">
+                                <div class="shop-grid-product-image-wrap">
+                                    <img src="img/lennonpink-2_600x.jpg" alt="" class="shop-grid-product-first-img">
+                                    <img src="img/lovers2-25_600x.jpg" alt="" class="shop-grid-product-second-img">
+                                </div>
+                                <div class="shop-grid-product-meta">
+                                    <div class="shop-grid-product-title">
+                                        Lennon Dress in Dusty Pink
+                                    </div>
+                                    <div class="shop-grid-product-price">
+                                        $ 118.00
+                                    </div>
+                                    <div class="shop-swatch-navigable-wrapper">
+                                        <div class="shop-swatch-group-selector swatch-group-selector-active">
+                                            <img src="img/lennon-dress-in-dusty-pink.media" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="shop-grid-product-quick-view">
+                                        <span class="shop-grid-product-quick-view-label">Quick view</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <button class="shop-add-to-wishlist"></button>
+                        </div>
+                        <div class="shop-grid-product">
+                            <a href="#" class="shop-grid-product-link">
+                                <div class="shop-grid-product-image-wrap">
+                                    <img src="img/JOJO-Studio-14_600x.jpg" alt="" class="shop-grid-product-first-img">
+                                    <img src="img/lifestyle-15_600x.jpg" alt="" class="shop-grid-product-second-img">
+                                </div>
+                                <div class="shop-grid-product-meta">
+                                    <div class="shop-grid-product-title">
+                                        Jojo Dress
+                                    </div>
+                                    <div class="shop-grid-product-price">
+                                        $ 118.00
+                                    </div>
+                                    <div class="shop-swatch-navigable-wrapper"></div>
+                                    <div class="shop-grid-product-quick-view">
+                                        <span class="shop-grid-product-quick-view-label">Quick view</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <button class="shop-add-to-wishlist"></button>
+                        </div>
+                    </div>
+                    <div class="pagination">
+                        <span class="page current">1</span>
+                        <span class="page"><a href="#">2</a></span>
+                        <span class="page"><a href="#">3</a></span>
+                        <span class="page"><a href="#">4</a></span>
+                        <span class="next"><a href="#">
+                                <svg aria-hidden="true" focusable="false" role="presentation"
+                                    class="icon icon-chevron-right" viewBox="0 0 284.49 498.98">
+                                    <title>icon-chevron</title>
+                                    <path
+                                        d="M35 498.98a35 35 0 0 1-24.75-59.75l189.74-189.74L10.25 59.75a35.002 35.002 0 0 1 49.5-49.5l214.49 214.49a35 35 0 0 1 0 49.5L59.75 488.73A34.89 34.89 0 0 1 35 498.98Z">
+                                    </path>
+                                </svg>
+                            </a>
+                        </span>
+                    </div>
+                </section>
+            </div>
+        </main>
+
+        <footer class="footer-section">
+            <div class="footer-body">
+                <div class="footer-item">
+                    <div class="container">
+                        <div class="footer-links">
+                            <div class="footer-link">
+                                <div class="collapsible-trigger">
+                                    <h2 class="anchor-link">Support</h2>
+                                    <svg aria-hidden="true" focusable="false" role="presentation"
+                                        class="icon icon--wide icon-chevron-down" viewBox="0 0 28 16">
+                                        <path d="m1.57 1.59 12.76 12.77L27.1 1.59" stroke-width="2" stroke="#000"
+                                            fill="none"></path>
+                                    </svg>
+                                </div>
+                                <div class="footer-collapsible">
+                                    <ul>
+                                        <li>
+                                            <a href="#">Help Center</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Size Guide</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Start a Return</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Contact Us</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Privacy Policy</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="footer-link">
+                                <div class="collapsible-trigger">
+                                    <h2 class="anchor-link">More</h2>
+                                    <svg aria-hidden="true" focusable="false" role="presentation"
+                                        class="icon icon--wide icon-chevron-down" viewBox="0 0 28 16">
+                                        <path d="m1.57 1.59 12.76 12.77L27.1 1.59" stroke-width="2" stroke="#000"
+                                            fill="none"></path>
+                                    </svg>
+                                </div>
+                                <div class="footer-collapsible">
+                                    <ul>
+                                        <li>
+                                            <a href="#">Our Showroom</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Blog</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Behind the Brand</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">In the Press</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Careers</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Collaborate With Us</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Customer Raves</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Rewards</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Reviews</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="footer-link">
+                                <div class="collapsible-trigger">
+                                    <h2 class="anchor-link">Sign up and save</h2>
+                                    <svg aria-hidden="true" focusable="false" role="presentation"
+                                        class="icon icon--wide icon-chevron-down" viewBox="0 0 28 16">
+                                        <path d="m1.57 1.59 12.76 12.77L27.1 1.59" stroke-width="2" stroke="#000"
+                                            fill="none"></path>
+                                    </svg>
+                                </div>
+                                <div class="footer-collapsible">
+                                    <p>join the list and never miss a beat</p>
+                                    <form action="#" name="footerForm" class="footer-form">
+                                        <input type="email" name="email" class="footer-form-email" required
+                                            placeholder="Enter your email">
+                                        <button type="submit" name="submit" class="footer-form-submit">🖂</button>
+                                    </form>
+                                    <div class="footer-social-body">
+                                        <a href="#">
+                                            <i class="fa-brands fa-facebook-f"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="fa-brands fa-youtube"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="fa-brands fa-instagram"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="fa-brands fa-pinterest"></i>
+                                        </a>
+                                        <a href="#">
+                                            <i class="fa-brands fa-tiktok"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-item">
+                    <div class="container">
+                        <div class="footer-copyright">
+                            ©<span></span> Ivy City Co.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+    </div>
+
+    <script src="libs/glidejs/glide.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
